@@ -10,6 +10,10 @@ commands:
     usage: "/vote"
     description: "Checks to see if you've voted yet."
     permission: votereward.command.vote
+  votereward:
+    usage: "/votereward"
+    description: "VoteReward configuration."
+    permission: votereward.command.votereward
 permissions:
   votereward:
     default: false
